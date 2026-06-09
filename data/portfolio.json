@@ -1,0 +1,20 @@
+[
+    {
+        "image": "eco-bliss-preview.png",
+        "title": "Eco Bliss Bath — Tests automatisés",
+        "text": "Automatisation de tests E2E et d'API pour une application e-commerce avec Cypress. Tests fonctionnels, de sécurité (XSS) et d'API. Identification et documentation de 4 anomalies critiques.",
+        "link": "https://github.com/MarionD-dev/eco-bliss-bath-tests"
+    },
+    {
+        "image": "kasa-preview.png",
+        "title": "Kasa — Application React",
+        "text": "Développement d'une application de location immobilière avec React et React Router. Intégration des composants et gestion des données via fichiers JSON.",
+        "link": "https://github.com/MarionD-dev/Kasa"
+    },
+    {
+        "image": "sophie-bluel-preview.png",
+        "title": "Sophie Bluel — Portfolio dynamique",
+        "text": "Développement du front-end dynamique d'un portfolio d'architecte en JavaScript. Gestion d'une galerie de projets, authentification et ajout de médias via une API REST. ⚠️ À remplacer par le projet Tomsen après la soutenance.",
+        "link": "https://github.com/MarionD-dev/portfolio-sophie-bluel-front"
+    }
+]
