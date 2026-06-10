@@ -35,7 +35,7 @@ function createSkillsFromJSON() {
                 col.innerHTML = `
                     <div class="skill-card">
                         <img src="./images/${item.image}" alt="${item.title}">
-                        <h4>${item.title}</h4>
+                        <h3>${item.title}</h3>
                         <p>${item.text}</p>
                     </div>`;
                 container.appendChild(col);
@@ -58,7 +58,7 @@ function createPortfolioFromJSON() {
                             <img src="images/${item.image}" alt="${item.title}">
                         </div>
                         <div class="project-body">
-                            <h4>${item.title}</h4>
+                        <h3>${item.title}</h3>
                             <p>${item.text}</p>
                             <a href="${item.link}" class="project-btn" target="_blank">Voir le projet</a>
                         </div>

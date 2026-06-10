@@ -9,7 +9,7 @@
     --terracotta-dark: #8C3328;
     --yellow: #E8B84B;
     --dark: #1E1A17;
-    --gray: #6B6360;
+    --gray: #4A4745;
     --white: #FDFAF5;
 }
 
@@ -36,7 +36,7 @@ em {
     font-weight: 500;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: var(--terracotta);
+    color: #6B2018;
     margin-bottom: 0.75rem;
 }
 
@@ -51,7 +51,7 @@ em {
 
 /******* NAVBAR *******/
 .navbarScroll {
-    background-color: transparent;
+    background-color: rgba(30, 26, 23, 0.95);
     padding: 1.2rem 0;
     transition: all 0.4s ease;
 }
@@ -72,7 +72,8 @@ em {
     font-weight: 400;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.85) !important;
+    color: white !important;
+    opacity: 1;
     padding: 0.5rem 1rem !important;
     transition: color 0.2s;
 }
@@ -131,7 +132,7 @@ em {
 }
 .hero-sub {
     font-size: 1rem;
-    color: rgba(255,255,255,0.65);
+    color: rgba(255,255,255,0.9);
     max-width: 380px;
     line-height: 1.7;
     margin-bottom: 2.5rem;
@@ -203,7 +204,7 @@ em {
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    color: rgba(255,255,255,0.4);
+    color: rgba(255,255,255,0.75);
     font-size: 0.7rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -433,7 +434,7 @@ em {
     padding: 7rem 0;
     background-color: var(--dark);
 }
-.contact-section .section-tag { color: rgba(255,255,255,0.6); }
+.contact-section .section-tag { color: rgba(255,255,255,0.9); }
 .contact-section .section-title { color: white; }
 .contact-section .section-title em { color: var(--terracotta-light); }
 .contact-card {
@@ -462,7 +463,7 @@ em {
     margin-bottom: 0.5rem;
 }
 .contact-card a {
-    color: rgba(255,255,255,0.6);
+    color: #dddddd;
     text-decoration: none;
     font-size: 0.85rem;
     transition: color 0.2s;
@@ -472,10 +473,10 @@ em {
 /******* FOOTER *******/
 footer {
     background-color: #141210;
-    color: rgba(255,255,255,0.35);
+    color: #cccccc;
     text-align: center;
     padding: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     letter-spacing: 0.05em;
 }
 
