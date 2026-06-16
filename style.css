@@ -27,7 +27,7 @@ body {
 
 em {
     font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
+    font-style: normal;
     color: var(--terracotta);
 }
 
@@ -127,7 +127,7 @@ em {
 }
 .hero-title em {
     color: #F4A68A;
-    font-style: italic;
+    font-style: normal;
     display: block;
 }
 .hero-sub {
@@ -396,11 +396,19 @@ em {
     display: flex;
     flex-direction: column;
 }
-.project-body h4 {
+.project-body h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--dark);
+    margin-bottom: 0.2rem;
+}
+.project-type {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--terracotta);
     margin-bottom: 0.75rem;
 }
 .project-body p {
@@ -438,11 +446,15 @@ em {
 .contact-section .section-title { color: white; }
 .contact-section .section-title em { color: var(--terracotta-light); }
 .contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(255,255,255,0.06);
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 20px;
-    padding: 2.5rem 1.5rem;
+    padding: 2.8rem 1.5rem;
     text-align: center;
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 .contact-card:hover {
@@ -451,24 +463,25 @@ em {
     transform: translateY(-4px);
 }
 .contact-card i {
-    font-size: 2rem;
+    font-size: 3.2rem;
     color: var(--terracotta-light);
-    margin-bottom: 1rem;
     display: block;
+    transition: color 0.3s ease;
 }
-.contact-card h3 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.2rem;
-    color: white;
-    margin-bottom: 0.5rem;
+.contact-card:hover i {
+    color: #F4A68A;
 }
-.contact-card a {
-    color: #dddddd;
-    text-decoration: none;
-    font-size: 0.85rem;
-    transition: color 0.2s;
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
-.contact-card a:hover { color: #F4A68A; }
 
 /******* FOOTER *******/
 footer {

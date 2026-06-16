@@ -58,7 +58,8 @@ function createPortfolioFromJSON() {
                             <img src="images/${item.image}" alt="${item.title}">
                         </div>
                         <div class="project-body">
-                        <h3>${item.title}</h3>
+                            <h3>${item.title}</h3>
+                            <span class="project-type">${item.type}</span>
                             <p>${item.text}</p>
                             <a href="${item.link}" class="project-btn" target="_blank">Voir le projet</a>
                         </div>
