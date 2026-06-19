@@ -34,7 +34,7 @@ function createSkillsFromJSON() {
                 col.classList.add("col-lg-4", "col-md-4");
                 col.innerHTML = `
                     <div class="skill-card">
-                        <img src="./images/${item.image}" alt="${item.title}">
+                        <img src="./images/${item.image}" alt="${item.title}" loading="lazy">
                         <h3>${item.title}</h3>
                         <p>${item.text}</p>
                     </div>`;
@@ -55,7 +55,7 @@ function createPortfolioFromJSON() {
                 col.innerHTML = `
                     <div class="project-card">
                         <div class="project-img-wrapper">
-                            <img src="images/${item.image}" alt="${item.title}">
+                            <img src="images/${item.image}" alt="${item.title}" loading="lazy">
                         </div>
                         <div class="project-body">
                             <h3>${item.title}</h3>
