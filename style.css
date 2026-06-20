@@ -248,9 +248,11 @@ em {
 }
 .about-img {
     width: 100%;
-    max-width: 380px;
-    border-radius: 40% 60% 60% 40% / 40% 40% 60% 60%;
+    max-width: 340px;
+    height: auto;
     display: block;
+    object-fit: cover;
+    border-radius: 40% 60% 60% 40% / 40% 40% 60% 60%;
     position: relative;
     z-index: 1;
 }
